@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+</head>
+ 
+<body class="bg-black text-white">
+    <div class="flex container mx-auto w-4/5">
+        <div class="first w-10 md:w-[50%] m-3 ">
+            
+            <div class="sidebar flex sticky top-3">
+                <ul class="flex flex-col space-y-3 text-xl gap-[12px]">
+                    <li class="logo invert">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[120px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[135px] cursor-pointer">
+                        <span class="material-symbols-outlined">home</span><span class="hidden md:block">Home</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[130px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[145px]  cursor-pointer">
+                        <span class="material-symbols-outlined">search</span><span class="hidden md:block">Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[190px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[205px]  cursor-pointer">
+                        <span class="material-symbols-outlined">Notifications</span><span class="hidden md:block">Notifications</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[150px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[165px] cursor-pointer">
+                        <span class="material-symbols-outlined">Message</span> <span class="hidden md:block">Messages</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[100px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[115px] cursor-pointer">
+                        <span class="material-symbols-outlined">robot</span><span class="hidden md:block">Grok</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[200px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[215px] cursor-pointer">
+                        <span class="material-symbols-outlined">communities</span><span class="hidden md:block">Communities</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[150px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[175px] cursor-pointer">
+                        <span class="material-symbols-outlined invert"><svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                                <g>
+                                    <path
+                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                    </path>
+                                </g>
+                            </svg></span><span class="hidden md:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  w-[130px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[145px] cursor-pointer">
+                        <span class="material-symbols-outlined">person</span><span class="hidden md:block">Profile</span>
+                    </li>   
+                    <li
+                        class="flex justify-start items-center gap-3  w-[100px] rounded-full font-bold md:hover:bg-slate-800 hover:px-5  hover:w-[120px] cursor-pointer">
+                        <span class="material-symbols-outlined">more</span><span class="hidden md:block">more</span>
+                    </li>
+                    <li class="flex justify-start items-center  w-fit"><button
+                            class="bg-blue-500 font-bold w-[220px] h-[45px] rounded-full text-white hidden md:block">Post</button></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="second  md:w-[130%]   border-[1px] border-x-gray-800 border-y-black  m-3 ">
+            <div class="top flex justify-center border-b-2 border-gray-800">
+                <div class="left w-[50%] p-3 text-center hover:bg-slate-900  cursor-pointer relative">For You
+                    <div class="w-1/4 border-b-4 border-blue-800 md:mx-24 mx-16 absolute bottom-0 "></div>
+                </div>
+                <div class="right w-[50%] p-3 text-center  hover:bg-slate-900 cursor-pointer">Following</div>
+
+            </div>
+            <div class="whatishappening flex justify-center items-center">
+                <div
+                    class=" font-bold text-2xl w-10 h-10 rounded-full border-2 border-gray-500 bg-slate-600 relative top-3 flex justify-center items-center">
+                    <p>J</p>
+                </div>
+                <input type="text" placeholder="What is happening?!"
+                    class=" outline-none mt-5 mx-3 rounded-full bg-transparent text-xl w-3/4 p-2">
+            </div>
+            <div class="Everybody flex items-center gap-2 mx-24 border-b-2 border-gray-800 md:w-[80%] w-[70%]">
+                <span class="mb-4 material-symbols-outlined text-blue-600">globe</span>
+                <span class="text-blue-600 mb-4">Everybody can reply</span>
+            </div>
+            <div class="icons flex items center gap-3 mx-24 mt-2 text-blue-600 cursor-pointer">
+                <span class="material-symbols-outlined">photo</span>
+                <span class="material-symbols-outlined">gif</span>
+                <span class="material-symbols-outlined">poll</span>
+                <span class="material-symbols-outlined">sentiment_satisfied</span>
+                <span class="material-symbols-outlined">calendar_month</span>
+                <span class="material-symbols-outlined">Location_on </span>
+                <button class="bg-blue-600 text-white rounded-xl md:ml-8 ml-0 px-2 h-[24px] w-[100px] relative">Post</button>
+            </div>
+            <div class="mt-4 border-b-2 border-gray-800 w-full flex"></div>
+            <div class="posts">
+                <div class="post flex border-b-2 border-gray-800">
+                    <div class="number1div image mx-2 font-bold text-2xl w-10 h-10 rounded-full border-2 border-gray-500 bg-slate-600 relative top-3 flex justify-center items-center">
+                        I
+                    </div>
+                    <div class="number2div writterinfo my-4 w-[90%]">
+                        <span class="my-20 font-bold"> ٰImran Siddique <span class="text-gray-600 font-normal">@imransiddique89·13h</span> </span>
+                        <div class="aboutpost">
+                            Weather can Help Bangladesh won their First Test series against Pakistan in history
+                        </div>
+                        <img src="https://pbs.twimg.com/media/GWIf9IgXwAAiqun?format=jpg&name=large"
+                            class="w-[95%] rounded-lg my-5 cursor-pointer" alt="">
+                        <div class="icons flex cursor-pointer justify-between w-[95%]">
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 "><span>message</span></span>14</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 ">repeat</span>144</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">favorite</span>14k</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">poll</span>30k</div>
+                            <span class="material-symbols-outlined text-gray-600">bookmark
+                                <span class="material-symbols-outlined text-gray-600">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post flex border-b-2 border-gray-800">
+                    <div class="number1div image mx-2 font-bold text-2xl w-10 h-10 rounded-full border-2 border-gray-500 bg-slate-600 relative top-3 flex justify-center items-center">
+                        I
+                    </div>
+                    <div class="number2div writterinfo my-4 w-[90%]">
+                        <span class="my-20 font-bold"> ٰImran Siddique <span class="text-gray-600 font-normal">@imransiddique89·13h</span> </span>
+                        <div class="aboutpost">
+                            Weather can Help Bangladesh won their First Test series against Pakistan in history
+                        </div>
+                        <img src="https://pbs.twimg.com/media/GWIf9IgXwAAiqun?format=jpg&name=large"
+                            class="w-[95%] rounded-lg my-5 cursor-pointer" alt="">
+                        <div class="icons flex cursor-pointer justify-between w-[95%]">
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 "><span>message</span></span>14</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 ">repeat</span>144</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">favorite</span>14k</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">poll</span>30k</div>
+                            <span class="material-symbols-outlined text-gray-600">bookmark
+                                <span class="material-symbols-outlined text-gray-600">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post flex border-b-2 border-gray-800">
+                    <div class="number1div image mx-2 font-bold text-2xl w-10 h-10 rounded-full border-2 border-gray-500 bg-slate-600 relative top-3 flex justify-center items-center">
+                        I
+                    </div>
+                    <div class="number2div writterinfo my-4 w-[90%]">
+                        <span class="my-20 font-bold"> ٰImran Siddique <span class="text-gray-600 font-normal">@imransiddique89·13h</span> </span>
+                        <div class="aboutpost">
+                            Weather can Help Bangladesh won their First Test series against Pakistan in history
+                        </div>
+                        <img src="https://pbs.twimg.com/media/GWIf9IgXwAAiqun?format=jpg&name=large"
+                            class="w-[95%] rounded-lg my-5 cursor-pointer" alt="">
+                        <div class="icons flex cursor-pointer justify-between w-[95%]">
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 "><span>message</span></span>14</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 ">repeat</span>144</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">favorite</span>14k</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">poll</span>30k</div>
+                            <span class="material-symbols-outlined text-gray-600">bookmark
+                                <span class="material-symbols-outlined text-gray-600">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post flex border-b-2 border-gray-800">
+                    <div class="number1div image mx-2 font-bold text-2xl w-10 h-10 rounded-full border-2 border-gray-500 bg-slate-600 relative top-3 flex justify-center items-center">
+                        I
+                    </div>
+                    <div class="number2div writterinfo my-4 w-[90%]">
+                        <span class="my-20 font-bold"> ٰImran Siddique <span class="text-gray-600 font-normal">@imransiddique89·13h</span> </span>
+                        <div class="aboutpost">
+                            Weather can Help Bangladesh won their First Test series against Pakistan in history
+                        </div>
+                        <img src="https://pbs.twimg.com/media/GWIf9IgXwAAiqun?format=jpg&name=large"
+                            class="w-[95%] rounded-lg my-5 cursor-pointer" alt="">
+                        <div class="icons flex cursor-pointer justify-between w-[95%]">
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 "><span>message</span></span>14</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 ">repeat</span>144</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">favorite</span>14k</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">poll</span>30k</div>
+                            <span class="material-symbols-outlined text-gray-600">bookmark
+                                <span class="material-symbols-outlined text-gray-600">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+
+                <div class="post flex border-b-2 border-gray-800">
+                    <div
+                        class="number1div image mx-2 font-bold text-2xl w-10 h-10 rounded-full border-2 border-gray-500 bg-slate-600 relative top-3 flex justify-center items-center">
+                        A
+                    </div>
+                    <div class="number2div writterinfo my-4 w-[90%]">
+                        <span class="my-20 font-bold"> ANDO CT <span class="text-gray-600 font-normal">@XMaximist·15h</span></span>
+                        <div class="aboutpost">
+                            I was seeking for chances in the Bitcoin L2 market. STX comes to mind first, with a market
+                            cap of $2.4 billion, but I also discovered CORE, which is currently trading at 0.9 billion.
+
+                            Run some on-chain activity numbers and this is why I think
+                            @Coredao_Org
+                            is the best option IMO!
+                        </div>
+                        <img src="https://pbs.twimg.com/media/GWIYZJlXIAAWJEV?format=jpg&name=small"
+                            class="w-[95%] rounded-lg my-5 cursor-pointer" alt="">
+                        <div class="likes flex cursor-pointer justify-between w-[95%]">
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 "><span>message</span></span>14</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600 ">repeat</span>144</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">favorite</span>14k</div>
+                            <div class="flex items-center  text-gray-600 "><span
+                                    class="material-symbols-outlined text-gray-600">poll</span>30k</div>
+                            <span class="material-symbols-outlined text-gray-600">bookmark
+                                <span class="material-symbols-outlined text-gray-600">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third  w-[80%]  m-3 md:block hidden ">
+
+            <div class="search bg-gray-900  rounded-full flex items-center lg:sticky lg:top-3">
+                <span class="material-symbols-outlined rounded-full bg-gray-900 px-2 py-1 mt-1">search</span>
+                <input type="text" placeholder="Search"
+                    class="w-[100%] text-xl rounded-full bg-gray-900 text-white  px-3 py-2 outline-none">
+            </div>
+            <div class="buypremium px-2 my-2 border-[1px] border-gray-800 rounded-xl mt-4 lg:sticky lg:top-20">
+                <div class="font-bold text-xl mb-2 mt-4">Subscribe to Premium</div>
+                <div class="mb-4">Subscribe to unlock new features and if eligible, receive a share of ads revenue.
+                </div>
+                <div class="mb-5 "><button
+                        class="bg-blue-700 px-2 py-2 lg:w-[50%] rounded-full font-bold text-lg text-white">Subscribe</button>
+                </div>
+            </div>
+
+            <div class="whats  rounded-2xl my-4 space-y-3 border-gray-900 border-[2px] w-[100%] sticky top-[270px]">
+                <h1 class="text-xl font-bold p-3">What's Happening</h1>
+
+
+                <div class="item my-2 px-2 hover:bg-gray-800 cursor-pointer rounded-xl ">
+                    <div class="font-bold text-sm text-gray-700">Trending in Pakistan</div>
+                    <div class="font-bold">#SindhRains</div>
+                    <div class="mx-1 text-gray-700">40.2k Posts</div>
+
+                </div>
+                <div class="item my-2 px-2 hover:bg-gray-800 cursor-pointer rounded-xl ">
+                    <div class="font-bold text-sm text-gray-700">Trending in Pakistan</div>
+                    <div class="font-bold">#ArshadNadeem</div>
+                    <div class="mx-1 text-gray-700">40.2k Posts</div>
+
+                </div>
+                <div class="item my-2 px-2 hover:bg-gray-800 cursor-pointer rounded-xl ">
+                    <div class="font-bold text-sm text-gray-700">Trending in Pakistan</div>
+                    <div class="font-bold">#Telegram</div>
+                    <div class="mx-1 text-gray-700">40.2k Posts</div>
+
+                </div>
+                <div class="item my-2 px-2 hover:bg-gray-800 cursor-pointer rounded-xl ">
+                    <div class="font-bold text-sm text-gray-700">Trending in Pakistan</div>
+                    <div class="font-bold">Japan</div>
+                    <div class="mx-1 text-gray-700">40.2k Posts</div>
+
+                </div>
+                <!-- <div class="item my-2 px-2 hover:bg-gray-800 cursor-pointer rounded-xl ">
+                    <div class="font-bold text-sm text-gray-700">Trending in Pakistan</div>
+                    <div class="font-bold">#China</div>
+                    <div class="mx-1 text-gray-700">40.2k Posts</div>
+
+                </div>
+                <div class="item my-2 px-2 hover:bg-gray-800 cursor-pointer rounded-xl ">
+                    <div class="font-bold text-sm text-gray-700">Trending in Pakistan</div>
+                    <div class="font-bold">#Peshawar</div>
+                    <div class="mx-1 text-gray-700">40.2k Posts</div>
+
+                </div> -->
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
